@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "522007939418",
+    "project_id": "laikasmain",
+    "storage_bucket": "laikasmain.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522007939418:android:bbe3f8906a974769b90b63",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "522007939418-8edio48fp5cgcq9oquvhhn3vq920qv7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvCxbOx04JeFvFxHMHbQX9C22zBtFXfIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "522007939418-8edio48fp5cgcq9oquvhhn3vq920qv7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
