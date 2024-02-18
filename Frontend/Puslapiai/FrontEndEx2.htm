@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is my first website. It includes lots of information about my life.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="main">
+		<nav>
+			<div class="logo">
+				<img src="images/logo.png">
+			</div>
+
+			<div class="nav-links">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Products</a></li>
+					<li><a href="https://www.ebay.co.uk/sch/benas-seller/m.html?_nkw=&_armrs=1&_ipg=&_from=">Ebay</a></li>
+					<li><a href="#">Cart</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="information"> 
+			<div class="overlay"> </div>
+			<div class="telefonas">
+					<img src="images/mobile.png">
+				</div>
+				<div id="circle">
+				
+				<div class="feature one">
+					<img src="images/camera.png">
+						<div>
+							<h1>Kamera</h1>
+							<p>Labai gera kamera</p>
+						</div>
+					</div>
+				<div class="feature two">
+					<img src="images/processor.png">
+					<div>
+							<h1>cpu</h1>
+							<p>zeurei greits</p>
+						</div>
+					</div>
+				<div class="feature three">
+					<img src="images/display.png">
+					<div>
+							<h1>svieslente</h1>
+							<p>ryski, daug spalvu</p>
+						</div>
+					</div>
+				<div class="feature four">
+					<img src="images/battery.png">
+					<div>
+							<h1>akumas</h1>
+							<p> ilgai laiko</p>
+						</div>
+					</div>
+			</div>
+		</div>
+		<div class="controls">
+			<img src="images/arrow.png" id="upBtn">
+			<h3>Features</h3>
+			<img src="images/arrow.png" id="downBtn">
+		</div>
+
+	</div>
+
+   <script>
+   		var circle = document.getElementById("circle");
+   		var upBtn = document.getElementById("upBtn");
+   		var downBtn = document.getElementById("downBtn");
+
+   		var rotateValue = circle.style.transform;
+   		var rotateSum;
+
+
+   		upBtn.onclick = function () {
+   			rotateSum = rotateValue + "rotate(-90deg)";
+   			circle.style.transform = rotateSum;
+   			rotateValue = rotateSum;
+   		}
+   		downBtn.onclick = function () {
+   			rotateSum = rotateValue + "rotate(+90deg)";
+   			circle.style.transform = rotateSum;
+   			rotateValue = rotateSum;
+   		}
+   </script>
+</body>
+
+</html>
